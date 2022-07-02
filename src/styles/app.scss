@@ -1,7 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;900&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  // font-weight: 500;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+
+  h3,
+  h4 {
+    font-weight: 400;
+  }
 }
 
 h1,
@@ -13,3 +24,4 @@ h3 {
 @import "./player";
 @import "./song";
 @import "./library";
+@import "./nav";
